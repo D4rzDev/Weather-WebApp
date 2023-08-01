@@ -57,7 +57,7 @@ Axios.request(options)
         <div className=' absolute top-0 right-0 py-4 px-4 md:top-0 md:right-0' >
           <div className='dropdown'>
               <button className='dropbtn bg-transparent border-none text-white' onClick={() => setShowDropdown(!showDropdown)}>
-                <img className=' h-6 w-6 md:h-10 md:w-10' src="src/assets/filter.png" alt="" />
+                <img className=' h-6 w-6 md:h-10 md:w-10' src="/filter.png" alt="" />
               </button>
               {showDropdown && (
                 <div className='dropdown-content absolute right-0 text-white text-sm md:text-lg'>
@@ -75,40 +75,40 @@ Axios.request(options)
         <div className=' flex flex-col items-center justify-center mt-6'>
           <p className='flex flex-row items-center justify-center text-2xl font-extrabold md:text-4xl'>{weatherLocation}</p>
           <div className=' flex flex-row items-center justify-center pb-4 md:pb-10'>
-            <img className=' h-4 pr-1 md:h-6' src="src/assets/placeholder.png" alt="" />
+            <img className=' h-4 pr-1 md:h-6' src="/placeholder.png" alt="" />
             <p className=' text-m font-extralight md:text-xl'>{weatherCountry}</p>
           </div>
           <p className=' flex items-center justify-center temp text-4xl pb-10 font-normal md:text-6xl'><img className=' h-10 w-10' src="src/assets/hot.png" alt="" />{weatherTemp}<span className=' text-red-600'>°</span></p>
         </div>
         <div className=' flex items-center justify-center mb-6 '>
-          <img className=' w-16 h-16 animate-pulse  transition md:h-24 md:w-24' src="src/assets/rainy-day.png" alt="Weather Icon" />
+          <img className=' w-16 h-16 animate-pulse  transition md:h-24 md:w-24' src="/rainy-day.png" alt="Weather Icon" />
         </div>
       </div>
   
      <div className=' flex flex-row items-center justify-center flex-wrap gap-4 md:flex-nowrap'>
       <div className=' cards flex flex-col items-center justify-between h-52 w-40 rounded-2xl py-4 hover:scale-110 transition'>
         <p className=' flex text-start font-bold'>Humidity</p>
-        <img className=' h-12 ' src="src/assets/humidity.png" alt="" />
+        <img className=' h-12 ' src="/humidity.png" alt="" />
         <p className=' font-bold'>{weatherHumidity}%</p>
       </div>
       <div className=' cards flex flex-col items-center justify-between py-4 h-52 w-40 rounded-2xl hover:scale-110 transition '>
          <p className=' font-bold'>Condition</p>
-         <img className=' h-16 py-2' src="src/assets/weather.png" alt="" />
+         <img className=' h-16 py-2' src="/weather.png" alt="" />
          <p className=' text-s font-bold'>{weatherCondition}</p>
       </div>
        <div className=' cards flex flex-col items-center justify-between py-4 h-52 w-40 rounded-2xl hover:scale-110 transition'>
         <p className=' flex text-start font-bold'>Wind</p>
-        <img className=' h-16 py-2' src="src/assets/wind.png" alt="" />
+        <img className=' h-16 py-2' src="/wind.png" alt="" />
         <p className=' font-bold '>{windKph} kph</p>
       </div>
        <div className=' cards flex flex-col items-center justify-between py-4 h-52 w-40 rounded-2xl hover:scale-110 transition'>
         <p className=' flex text-start font-bold'>Feels Like</p>
-        <img className=' h-16 py-2' src="src/assets/rain.png" alt="" />
+        <img className=' h-16 py-2' src="/rain.png" alt="" />
         <p className=' font-bold'>{feelsLike}° </p>
       </div>
        <div className=' cards flex flex-col items-center justify-between py-4 h-52 w-40 rounded-2xl hover:scale-110 transition'>
         <p className=' flex text-start font-bold'>Preasure</p>
-        <img className=' h-16 py-2' src="src/assets/pressure.png" alt="" />
+        <img className=' h-16 py-2' src="/pressure.png" alt="" />
         <p className=' font-bold '>{preasure}</p>
       </div>
     
