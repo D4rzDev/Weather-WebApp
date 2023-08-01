@@ -78,7 +78,7 @@ Axios.request(options)
             <img className=' h-4 pr-1 md:h-6' src="/placeholder.png" alt="" />
             <p className=' text-m font-extralight md:text-xl'>{weatherCountry}</p>
           </div>
-          <p className=' flex items-center justify-center temp text-4xl pb-10 font-normal md:text-6xl'><img className=' h-10 w-10' src="src/assets/hot.png" alt="" />{weatherTemp}<span className=' text-red-600'>°</span></p>
+          <p className=' flex items-center justify-center temp text-4xl pb-10 font-normal md:text-6xl'><img className=' h-10 w-10' src="/hot.png" alt="" />{weatherTemp}<span className=' text-red-600'>°</span></p>
         </div>
         <div className=' flex items-center justify-center mb-6 '>
           <img className=' w-16 h-16 animate-pulse  transition md:h-24 md:w-24' src="/rainy-day.png" alt="Weather Icon" />
